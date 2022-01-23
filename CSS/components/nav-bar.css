@@ -14,5 +14,21 @@
 }
 
 .nav__link {
+  position: relative;
   color: #2e363e;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__circle {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
 }
