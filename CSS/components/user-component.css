@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .user-component,
@@ -51,4 +52,12 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component-channel__column {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__text i {
+  color: tomato;
 }
